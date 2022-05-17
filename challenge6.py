@@ -1,7 +1,4 @@
 #1
-from pyparsing import Word
-
-
 k="カミュ"
 for i in range(3):
     print(k[i])
