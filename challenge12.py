@@ -21,3 +21,21 @@ class Circle:
 cir1=Circle(5)
 print(cir1.area())
 #3
+class Triangle:
+    def __init__(self,b,h):
+        self.bottom=b
+        self.height=h
+        print("Created!")
+    def area2(self):
+        return (self.bottom*self.height)/2
+tri1=Triangle(5,7)
+print(tri1.area2())
+#4
+class Hexagon:
+    def __init__(self,s):
+        self.side=s
+        print("Created")
+    def calculater_perimeter(self):
+        return self.side*6
+hex1=Hexagon(8)
+print(hex1.calculater_perimeter())
