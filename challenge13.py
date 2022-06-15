@@ -1,7 +1,4 @@
 #1
-from re import S
-
-
 class Rectangle:
     def __init__(self,w,l):
         self.wide=w
