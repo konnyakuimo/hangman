@@ -20,3 +20,4 @@ print("A streaming comes across the sky.".replace("s","$"))
 #7
 print("Hemingway".index("m"))
 #8
+#test
